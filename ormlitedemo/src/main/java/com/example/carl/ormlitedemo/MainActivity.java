@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mTextView.append("\n#######Begin to Insert#########\n");
         // 插入数据
         userDao.insertTest();
+
         display();
 
         mTextView.append("\n#######Begin to Delete#########\n");
