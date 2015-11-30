@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         // 插入数据
         userDao.insertTest();
         display();
-        // mTextView.append("\n#######Begin to Update#########\n");
 
         mTextView.append("\n#######Begin to Delete#########\n");
         // 删除数据
